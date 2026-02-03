@@ -81,6 +81,7 @@ Install the `esquisse` package for `R`. Report the code below, ensuring to set t
 **Solution:**
 ```{r}
 #| size: "scriptsize"
+#| code-fold: FALSE
 #| eval: false
 install.packages("esquisse")
 ```
@@ -91,6 +92,7 @@ Load the `esquisse` package for `R`. Report the code below. It does not matter w
 **Solution:**
 ```{r}
 #| size: "scriptsize"
+#| code-fold: FALSE
 library("esquisse")
 ```
 
@@ -100,6 +102,7 @@ How can you ask for help about the  `esquisse` package for `R`? Report the code 
 **Solution:**
 ```{r}
 #| size: "scriptsize"
+#| code-fold: FALSE
 #| eval: false
 help("esquisse")
 ```
@@ -110,6 +113,7 @@ Is a demo or vignette available for the  `esquisse` package for `R`? Report the 
 **Solution:**
 ```{r}
 #| size: "scriptsize"
+#| code-fold: FALSE
 #| eval: false
 demo("esquisse")
 vignette("esquisse")
@@ -192,6 +196,11 @@ Triangular Numbers are the cumulative sums of natural numbers:
 $$F_n = \frac{n(n+1)}{2}.$$
 
 Create a vector of the first 10 Triangular Numbers. 
+
+**Solution:**
+```{r}
+#| size: "scriptsize"
+```
 
 ## Part c
 Suppose I were designing a repeated meausres experiment with three treatment conditions. Each of $n=10$ participants (with `ID` 1 to 10) will receive *all* experimental conditions, call them "Control", "Treatment A", and "Treatment B". 
