@@ -121,9 +121,7 @@ Add the BibTeX citation for `esquisse` package for `R` to your `.bib` file and c
 the command instead of actually citing. -->
 
 **Solution:**
-```{r}
-#| size: "scriptsize"
-```
+*@\hspace{-0em}esquisse is a package that gives us the ability to create "ggplot2" figures interactively using available data frames.*
 
 ## Part f
 Run `esquisser()` in your console -- not in a chunk of `R` code in your Quarto document. 
