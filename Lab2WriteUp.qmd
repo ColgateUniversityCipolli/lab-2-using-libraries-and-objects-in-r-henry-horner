@@ -191,6 +191,12 @@ where $F_0=0$ and $F_1=1$.
 
 Create a vector of the first 10 Fibonacci numbers.
 
+**Solution:**
+```{r}
+#| size: "scriptsize"
+#| code-fold: FALSE
+```
+
 ## Part b
 Triangular Numbers are the cumulative sums of natural numbers:
 $$F_n = \frac{n(n+1)}{2}.$$
