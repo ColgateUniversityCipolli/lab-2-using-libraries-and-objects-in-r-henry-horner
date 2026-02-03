@@ -106,6 +106,9 @@ Is a demo or vignette available for the  `esquisse` package for `R`? Report the 
 **Solution:**
 ```{r}
 #| size: "scriptsize"
+#| eval: false
+demo("esquisse")
+vignette("esquisse")
 ```
 
 ## Part e
