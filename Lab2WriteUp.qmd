@@ -195,6 +195,7 @@ Create a vector of the first 10 Fibonacci numbers.
 ```{r}
 #| size: "scriptsize"
 #| code-fold: FALSE
+(Fibonacci = c(1, 1, 2, 3, 5, 8, 13, 21, 34, 55))
 ```
 
 ## Part b
@@ -202,6 +203,13 @@ Triangular Numbers are the cumulative sums of natural numbers:
 $$F_n = \frac{n(n+1)}{2}.$$
 
 Create a vector of the first 10 Triangular Numbers. 
+
+**Solution:**
+```{r}
+#| size: "scriptsize"
+#| code-fold: FALSE
+(Triangular = c(1, 1, 2, 3, 5, 8, 13, 21, 34, 55))
+```
 
 **Solution:**
 ```{r}
